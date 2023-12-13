@@ -1,0 +1,15 @@
+<!-- upload_and_run_scripts.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload Document and Run Scripts</title>
+</head>
+<body>
+    <h2>Upload a Document and Run Scripts</h2>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Suffer exam</button>
+    </form>
+</body>
+</html>
